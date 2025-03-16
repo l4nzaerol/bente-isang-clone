@@ -4,9 +4,15 @@ npm install axios (harapp)
 
 lipat niyo yung .env sa loob ng file na likodd
 
+pang directory:
+cd \my-project\harapp
+cd \my-project\likod
 
 
-mga command sa likod if ayaw lumabas ng data sa database
+
+
+
+mag command sa likod if ayaw lumabas ng data sa database
 
 pagtapos niyo ilipat yung .env save niyo tapos php migrate na agad
 php artisan migrate
