@@ -10,7 +10,5 @@ mga command sa likod if ayaw lumabas ng data sa database
 
 pagtapos niyo ilipat yung .env save niyo tapos php migrate na agad
 php artisan migrate
-php artisan make:seeder TaskSeeder
-php artisan db:seed
 php artisan db:seed --class=TaskSeeder
 php artisan serve
