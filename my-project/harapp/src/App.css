@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main Container */
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 1000px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table Header */
+th {
+  background-color: #007b5e;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* Table Rows */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alternating Row Background */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Highlighted Row */
+tbody tr:nth-child(2) {
+  background-color: #e0f2e9;
+  font-weight: bold;
+}
+
+/* Task Status Styling */
+.status {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.completed {
+  color: #007b5e;
+}
+
+.pending {
+  color: #dc3545;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .container {
+      width: 95%;
+  }
+
+  table {
+      font-size: 14px;
+  }
+
+  th, td {
+      padding: 8px;
+  }
+}
