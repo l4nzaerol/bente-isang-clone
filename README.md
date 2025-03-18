@@ -6,7 +6,7 @@ lipat niyo yung .env sa loob ng file na likodd
 
 pang directory:
 cd \my-project\harapp
-cd \my-project\likod
+cd \my-project\likodd
 
 
 
